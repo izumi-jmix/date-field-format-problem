@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://sampleScreen.caption">
+    <layout expand="container">
+        <vbox id="container" width="50%" align="MIDDLE_CENTER" spacing="true" expand="containerPress">
+            <dateField id="a" resolution="DAY" datatype="localDate" dateFormat="MMMM YY" caption="a"/>
+            <dateField id="b" resolution="DAY" datatype="localDate" dateFormat="dd MMMM YY" caption="b"/>
+            <dateField id="c" resolution="DAY" datatype="localDate" dateFormat="dd YY" caption="c"/>
+            <dateField id="d" resolution="DAY" datatype="localDate" dateFormat="MMMM" caption="d"/>
+            <label id="containerPress"/>
+        </vbox>
+    </layout>
+</window>
